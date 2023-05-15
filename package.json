@@ -1,9 +1,7 @@
 {
   "name": "antim-sanskar",
   "version": "0.1.0",
-  "repository": {
-    "url": "git+https://github.com/k20012691/antim-sanskar.git"
-  },
+  "homepage": "https://github.com/k20012691/antim-sanskar/public/index.html",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
