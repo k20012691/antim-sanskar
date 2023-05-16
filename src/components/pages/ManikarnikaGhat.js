@@ -1,6 +1,13 @@
 import React from 'react'
 import NavMenu from '../NavMenu'
-import { Container } from 'reactstrap'
+import { Container, Row, Col } from 'reactstrap'
+import dom_pic from '../../style/img/s1 - the experience.jpg'
+import pic1 from '../../style/img/s1-1.jpg'
+import pic2 from '../../style/img/s1-2.jpg'
+import pic3 from '../../style/img/s1-3.jpg'
+import pic4 from '../../style/img/s1-4.jpg'
+import pic5 from '../../style/img/s1-5.jpg'
+import pic6 from '../../style/img/s1-6.jpg'
 
 function ManikarnikaGhat() {
   return (
@@ -8,16 +15,28 @@ function ManikarnikaGhat() {
       <NavMenu />
       <Container fluid style={{ padding: '5rem' }}>
         <h1>Manikarnika Ghat</h1>
-        <p>
+        <p style={{ marginBottom: '2rem' }}>
         Manikarnika Ghat (Hindi: मणिकर्णिका घाट) is one of the holiest cremation grounds among the sacred riverfronts (ghats),
         located on the Ganges, in the city of Varanasi in the Indian state of Uttar Pradesh. In Hinduism, death is considered
         a gateway to another life marked by the result of one's karma. It is believed that a human's soul attains moksha, and 
         hence breaks the cycle of rebirth when cremated here. 
         The ghat is named after Sati's earrings which fell here. The Hindu genealogy registers at Varanasi are kept here.
         </p>
-        <h5>Location</h5>
+        <Row className='my-auto' style={{ margin: '1rem' }}>
+          <Col>
+          <img src={pic1} alt='Inside the Ghats' height='300px' />
+          </Col>
+          <Col>
+          <img src={pic2} alt='Inside the Ghants' height='300px' />
+          </Col>
+          <Col>
+          <img src={pic3} alt='Inside the Ghants' height='300px' />
+          </Col>
+        </Row>
+        <h5 style={{ marginTop: '2rem' }}>Location</h5>
         <p>The Manikarnika Ghat is flanked by the Dashashwamedh Ghat and the Scindia Ghat. It is situated in Varanasi, Kashi region, India.</p>
         <h5>Mythological Origin</h5>
+        <img src={pic4} alt='Ghat Shrine' style={{ float: 'right', marginLeft: '30px', height: '300px' }} />
         <p>
         The Manikarnika Ghat is one of the oldest ghats in Varanasi. It is mentioned in a Gupta inscription of 5th century.
         It is revered in Hindu religion. When Mata Sati (Adi Shakti) sacrificed her life and set her body ablaze after Raja
@@ -45,10 +64,15 @@ function ManikarnikaGhat() {
         the ear jewel from lord Shiva fell down while he was dancing angrily, which fell on the earth and thus Manikarnika Ghat formed.
         </p>
         <h5>The experience at Manikarnika</h5>
+        <figure style={{ float: 'right', margin: '30px' }} >
+          <img src={dom_pic} height='320px' />
+          {/* <figcaption style={{ fontFamily: 'Inter', fontSize: '15px' }}>Fig. 1 - Dom watching me click pictures</figcaption> */}
+        </figure>
         <p>
         Manikarnika Ghat is a sacred cremation site located on the banks of the Ganges River in the holy city of Varanasi, India. The ghat is a popular and important Hindu pilgrimage site, where the remains of the dead are cremated and their souls are believed to ascend to the heavens. Every day, hundreds of people come to Manikarnika Ghat to witness the cremations and to pay their respects to the dead.
         The process of cremation at Manikarnika Ghat is one of the oldest and most sacred rituals in Hinduism. The body is bathed in the Ganges and then placed on a pyre of logs, covered in ghee (clarified butter) and sandalwood. The eldest son then lights the pyre and, with the help of mourners, keeps the fire burning until the body is completely reduced to ash. The ashes are then collected and scattered in the Ganges.
-        </p><p>
+        </p>
+        <p>
         Witnessing a cremation at Manikarnika Ghat is a powerful experience. The intense heat and smoke of the fire, combined with the prayers and chants of the mourners, create a remarkable atmosphere. The sight of a body slowly being consumed by the flames is both awe-inspiring and heartbreaking. It is a reminder of the fragility of life and the finality of death. 
         The rituals of cremation at Manikarnika Ghat have been carried out for centuries and are still observed by Hindus today. It is a powerful and ancient rite of passage, symbolizing the passing of the soul from this world to the next. It is a reminder of the cycle of life and death and the importance of respecting the deceased.
         </p><p>
@@ -63,6 +87,14 @@ function ManikarnikaGhat() {
         </p>
         <p>The Antyesti ceremonial offerings varies across the spectrum of Hindu society. Some of the popular rituals followed in Vedic religions after the death of a human being, for his or her peace and ascent to heaven are as follows.
 </p>
+        <Row>
+          <Col>
+            <img src={pic5} alt='Shrines' height='300px' />
+          </Col>
+          <Col>
+          <img src={pic6} alt='Shrines' height='300px' />
+          </Col>
+        </Row>
       </Container>
     </div>
   )
