@@ -1,6 +1,7 @@
 import React from 'react'
 import NavMenu from '../NavMenu'
 import { Container } from 'reactstrap'
+import pic1 from '../../style/img/s3-1.jpg'
 
 function MahaMritunjay() {
   return (
@@ -44,6 +45,7 @@ function MahaMritunjay() {
           The Maha Mrityunjaya Mantra obviously carries with it immense inherent strength but to tap that fully
           we need to cleanse ourselves internally and cleanse the environment around us.
         </p>
+        <img src={pic1} alt='Mahamritunjay Mantra' height='200px' style={{ margin: '2rem' }} />
         <h5>The Benefits of Maha Mrityunjaya Mantra</h5>
         <p>
         All mantras benefit an individual at 3 levels of existence:<br />
