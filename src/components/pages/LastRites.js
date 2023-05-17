@@ -1,6 +1,11 @@
 import React from 'react'
 import NavMenu from '../NavMenu'
-import { Container } from 'reactstrap'
+import { Container, Row, Col } from 'reactstrap'
+import pic1 from '../../style/img/s2-1.jpg'
+import pic2 from '../../style/img/s2-2.jpg'
+import pic3 from '../../style/img/s2-3.jpg'
+import pic4 from '../../style/img/s2-4.jpg'
+import pic5 from '../../style/img/s205.jpg'
 
 function LastRites() {
   return (
@@ -8,6 +13,7 @@ function LastRites() {
       <NavMenu />
       <Container fluid style={{ padding: '5rem' }}>
         <h1>Last Rites</h1>
+        <img src={pic1} alt='Last Rites' height='300px' style={{ float: 'right', marginLeft: '30px' }} />
         <p>
         The last rites are usually completed within a day of death. While practices vary among sects, generally, his or her body is washed, sandalwood paste and turmeric is applied on the body, wrapped in a dhoti for a man and a saree for women. The big toes are tied together with a string and a Tilak (red, yellow or white mark) is placed on the forehead. A bed is made out of bamboo sticks on which the deceased is taken to the Shamshan. The dead adult's body is carried to the cremation ground near a river or water, by family and friends, and placed on a pyre with feet facing south. 
         </p><p>
@@ -17,7 +23,19 @@ function LastRites() {
         </p><p>
         In some regions, the male blood members of the deceased shave their head on the 9th day called as NAUVAR and then invite all friends and relatives, on the thirteenth (13th) day, to eat a meal together in remembrance of the deceased called as Tehrvi Sanskar. This day, in some communities, also marks a day when the poor and needy are offered food in memory of the dead.
         </p>
+        <Row style={{ marginBottom: '2rem' }}>
+          <Col>
+            <img src={pic2} height='300px' alt='Cremation' />
+          </Col>
+          <Col>
+          <img src={pic3} height='300px' alt='Cremation' />
+          </Col>
+          <Col>
+          <img src={pic4} height='300px' alt='Cremation' />
+          </Col>
+        </Row>
         <h5>Burials in Hinduism</h5>
+        <img src={pic5} alt='Last Rites' height='200px' style={{ float: 'right', marginLeft: '20px' }} />
         <p>
         Apart from the cremation method. several sects in Hinduism follow the practice of burial of the dead. In some sects, the important sadhus are buried. The preparatory rituals are more or less similar to cremation viz, washing the body, applying vibuthi or chandam on the forehead of the deceased etc., but instead of cremating, the deceased is buried. The body is either placed in sleeping position or in some Shaivite and tribal traditions is in Padmasana sitting position with legs folded and arms resting on the thigh simulating meditative position. The burial pit is prepared in the community burial ground called Shamshana, usually situated outside the city or village. Some affluent will bury their dead in their own field. The burial pit for sleeping position is generally three feet width and six feet in length and for sitting position it is three feet by three feet. As a thumb rule in all the sects invariable the saints are buried in sitting position in a separate place where later on a Samadhi is built which becomes a place of worship.
         </p>
