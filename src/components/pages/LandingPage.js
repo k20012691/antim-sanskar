@@ -12,12 +12,23 @@ function LandingPage() {
         <NavMenu />
         <Container fluid style={{padding: '5rem'}}>
             <h1>Antim Sanskar</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra placerat felis nec aliquet.
-                Donec nec aliquam dolor, eu tempus velit. Duis tempus purus eget lectus pretium tincidunt.
-                Quisque neque leo, viverra sit amet rutrum et, porttitor eget eros. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Etiam pharetra placerat felis nec aliquet. Donec nec aliquam dolor,
-                eu tempus velit. Duis tempus purus eget lectus pretium tincidunt. Quisque neque leo,
-                viverra sit amet rutrum et, porttitor eget eros.
+            <p>
+            My experience at Manikarnika Ghat was a deeply moving one. The amount of wood I could see
+around must have been thousands of kilos sent a shiver down my spine. And it seemed to be
+
+announcing a preparation of death of the ultimate reality. I saw a body being slowly consumed
+by fire and another that was almost ashes and yet another that had been brought there for
+burning. It is a sobering reminder of the fragility of life and the finality of death. It was a
+powerful experience.
+
+Seeing me all intrigued a simple looking ordinarily dressed man approached me and offered to
+show me around. He was DOM the man who lit pyres. I took several pictures and videos and he
+was very forthcoming in sharing what all is done there and how.
+
+The process of cremation at Manikarnika Ghat is one that has been carried out for centuries and
+is still observed by Hindus today. It is a powerful and ancient rite of passage, symbolizing the
+passing of the soul from this world to the next. It is a powerful reminder of the cycle of life and
+death and the importance of respecting the deceased.
             </p>
             <Row style={{ marginTop: '3rem' }}>
                 <Col>
