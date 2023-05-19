@@ -2,6 +2,7 @@ import React from 'react'
 import NavMenu from '../NavMenu'
 import { Container } from 'reactstrap'
 import pic1 from '../../style/img/s3-1.jpg'
+import vid1 from '../../style/img/v3-1.MP4'
 
 function MahaMritunjay() {
   return (
@@ -153,6 +154,11 @@ function MahaMritunjay() {
         subtle bodies are still and quietened into the meditative silence sinking slowly into the Kaarana
         Shareera, the state of pure awareness.
       </Container>
+      <div className='vid' style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', margin: '2rem' }}>
+                <video controls="controls">
+                    <source src={vid1} />
+                </video>
+      </div>
     </div>
   )
 }
