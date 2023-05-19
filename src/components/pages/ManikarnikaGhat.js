@@ -8,6 +8,7 @@ import pic3 from '../../style/img/s1-3.jpg'
 import pic4 from '../../style/img/s1-4.jpg'
 import pic5 from '../../style/img/s1-5.jpg'
 import pic6 from '../../style/img/s1-6.jpg'
+import vid1 from '../../style/img/v1-1.mp4'
 
 function ManikarnikaGhat() {
   return (
@@ -53,6 +54,11 @@ function ManikarnikaGhat() {
         Shiva carried it and wandered. There are 51 Shakti Peeth linking to the 51 letters or akshar in Sanskrit. Each 
         temple have shrines for Shakti. The Shakti of Manikarnika is addressed as Vishalakshi & Manikarni.
         </p>
+        <div className='vid' style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', margin: '2rem' }}>
+                <video controls="controls">
+                    <source src={vid1} />
+                </video>
+            </div>
         <h5>Significance</h5>
         <p>
         Hindu mythology teaches that the ghat is especially sacred and that people cremated there receive moksha.

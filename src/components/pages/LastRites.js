@@ -6,6 +6,7 @@ import pic2 from '../../style/img/s2-2.jpg'
 import pic3 from '../../style/img/s2-3.jpg'
 import pic4 from '../../style/img/s2-4.jpg'
 import pic5 from '../../style/img/s205.jpg'
+import vid1 from '../../style/img/v2-1.mp4'
 
 function LastRites() {
   return (
@@ -53,6 +54,11 @@ function LastRites() {
         <p>
           <b>Pind Sammelan</b> also called Spindi or terahvin in North India, is a ritual performed in Hinduism on the 13th day of death of somebody. This ritual is performed to place the departed soul with the ancestors and God. It is believed that before the ritual the departed soul is a preta (evil spirit), and after performing this ritual, the soul will become "pitr" (good spirit) and will be included in the ancestors.
         </p>
+        <div className='vid' style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', margin: '2rem' }}>
+                <video controls="controls">
+                    <source src={vid1} />
+                </video>
+        </div>
       </Container>
     </div>
   )

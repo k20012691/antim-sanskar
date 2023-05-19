@@ -4,6 +4,7 @@ import manikarnika_img from '../../style/img/manikarnika-ghat.jpg'
 import last_rites_img from '../../style/img/last-rites.jpg'
 import maha_mritunjay from '../../style/img/maha-mritunjay.jpg'
 import { Row, Col, Container, Card, CardBody, CardTitle, CardText, Button } from 'reactstrap'
+import vid1 from '../../style/img/landingVid.mp4'
 
 function LandingPage() {
   return (
@@ -56,6 +57,11 @@ function LandingPage() {
                     </Card>
                 </Col>
             </Row>
+            <div className='vid' style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', margin: '2rem' }}>
+                <video controls="controls">
+                    <source src={vid1} />
+                </video>
+            </div>
         </Container>
     </div>
   )
