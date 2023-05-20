@@ -1,7 +1,6 @@
 import React from 'react'
 import NavMenu from '../NavMenu'
 import { Container, Row, Col } from 'reactstrap'
-import dom_pic from '../../style/img/s1 - the experience.jpg'
 import pic1 from '../../style/img/s1-1.jpg'
 import pic2 from '../../style/img/s1-2.jpg'
 import pic3 from '../../style/img/s1-3.jpg'
@@ -70,10 +69,7 @@ function ManikarnikaGhat() {
         the ear jewel from lord Shiva fell down while he was dancing angrily, which fell on the earth and thus Manikarnika Ghat formed.
         </p>
         <h5>The experience at Manikarnika</h5>
-        <figure style={{ float: 'right', margin: '30px' }} >
-          <img src={dom_pic} height='320px' />
-          {/* <figcaption style={{ fontFamily: 'Inter', fontSize: '15px' }}>Fig. 1 - Dom watching me click pictures</figcaption> */}
-        </figure>
+        
         <p>
         Manikarnika Ghat is a sacred cremation site located on the banks of the Ganges River in the holy city of Varanasi, India. The ghat is a popular and important Hindu pilgrimage site, where the remains of the dead are cremated and their souls are believed to ascend to the heavens. Every day, hundreds of people come to Manikarnika Ghat to witness the cremations and to pay their respects to the dead.
         The process of cremation at Manikarnika Ghat is one of the oldest and most sacred rituals in Hinduism. The body is bathed in the Ganges and then placed on a pyre of logs, covered in ghee (clarified butter) and sandalwood. The eldest son then lights the pyre and, with the help of mourners, keeps the fire burning until the body is completely reduced to ash. The ashes are then collected and scattered in the Ganges.
@@ -81,18 +77,7 @@ function ManikarnikaGhat() {
         <p>
         Witnessing a cremation at Manikarnika Ghat is a powerful experience. The intense heat and smoke of the fire, combined with the prayers and chants of the mourners, create a remarkable atmosphere. The sight of a body slowly being consumed by the flames is both awe-inspiring and heartbreaking. It is a reminder of the fragility of life and the finality of death. 
         The rituals of cremation at Manikarnika Ghat have been carried out for centuries and are still observed by Hindus today. It is a powerful and ancient rite of passage, symbolizing the passing of the soul from this world to the next. It is a reminder of the cycle of life and death and the importance of respecting the deceased.
-        </p><p>
-        My experience at Manikarnika Ghat was a deeply moving one. The amount of wood I could see around must have been  thousands of kilos sent a shiver down my spine. And it seemed to be announcing a preparation of death of the ultimate reality.  I saw a body being slowly consumed by fire and another that was almost ashes and yet another that had been brought there for burning. It is a sobering reminder of the fragility of life and the finality of death. It was a powerful experience.
-        Seeing me all intrigued a simple looking ordinarily dressed  man approached me and offered to show me around. He was DOM the man who lit pyres. I took several pictures and videos and he was very forthcoming in sharing what all is done there and how.
-        The process of cremation at Manikarnika Ghat is one that has been carried out for centuries and is still observed by Hindus today. It is a powerful and ancient rite of passage, symbolizing the passing of the soul from this world to the next. It is a powerful reminder of the cycle of life and death and the importance of respecting the deceased.
         </p>
-        <h5>Antyesti - the cremation</h5>
-        <p>
-        The cremation ground is called Shmashana (in Sanskrit), and traditionally it is located near a river, if not on the river bank itself. Those who can afford it may go to special sacred places like Kashi (Varanasi), Haridwar, Prayagraj (also known as Allahabad), Sri Rangam, Brahmaputra on the occasion of Ashokastami and Rameswaram to complete this rite of immersion of ashes into water. 
-        Some of the cremations are performed at ghats.
-        </p>
-        <p>The Antyesti ceremonial offerings varies across the spectrum of Hindu society. Some of the popular rituals followed in Vedic religions after the death of a human being, for his or her peace and ascent to heaven are as follows.
-</p>
         <Row>
           <Col>
             <img src={pic5} alt='Shrines' height='300px' />

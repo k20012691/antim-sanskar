@@ -32,11 +32,17 @@ function LastRites() {
           <img src={pic3} height='300px' alt='Cremation' />
           </Col>
           <Col>
-          <img src={pic4} height='300px' alt='Cremation' />
+          <img src={pic5} height='300px' alt='Cremation' />
           </Col>
         </Row>
+        <h5>Antyesti - the cremation</h5>
+        <p>
+        The cremation ground is called Shmashana (in Sanskrit), and traditionally it is located near a river, if not on the river bank itself. Those who can afford it may go to special sacred places like Kashi (Varanasi), Haridwar, Prayagraj (also known as Allahabad), Sri Rangam, Brahmaputra on the occasion of Ashokastami and Rameswaram to complete this rite of immersion of ashes into water. 
+        Some of the cremations are performed at ghats.
+        </p>
+        <p>The Antyesti ceremonial offerings varies across the spectrum of Hindu society. Some of the popular rituals followed in Vedic religions after the death of a human being, for his or her peace and ascent to heaven are as follows.
+</p>
         <h5>Burials in Hinduism</h5>
-        <img src={pic5} alt='Last Rites' height='200px' style={{ float: 'right', marginLeft: '20px' }} />
         <p>
         Apart from the cremation method. several sects in Hinduism follow the practice of burial of the dead. In some sects, the important sadhus are buried. The preparatory rituals are more or less similar to cremation viz, washing the body, applying vibuthi or chandam on the forehead of the deceased etc., but instead of cremating, the deceased is buried. The body is either placed in sleeping position or in some Shaivite and tribal traditions is in Padmasana sitting position with legs folded and arms resting on the thigh simulating meditative position. The burial pit is prepared in the community burial ground called Shamshana, usually situated outside the city or village. Some affluent will bury their dead in their own field. The burial pit for sleeping position is generally three feet width and six feet in length and for sitting position it is three feet by three feet. As a thumb rule in all the sects invariable the saints are buried in sitting position in a separate place where later on a Samadhi is built which becomes a place of worship.
         </p>
