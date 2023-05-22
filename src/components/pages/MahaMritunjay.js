@@ -10,11 +10,12 @@ function MahaMritunjay() {
       <NavMenu />
       <Container fluid style={{ padding: '5rem' }}>
         <h1>Maha Mritunjay Mantra</h1>
-        <p>
+        <div style={{ fontFamily: 'Khula', display: 'flex', alignItems: 'center', justifyContent:'center', margin: '20px', fontSize: '30px', fontWeight: '600' }}>
         ॐ त्र्यम्बकं यजामहे<br />
         सुगन्धिं पुष्टिवर्धनम्।<br />
         उर्वारुकमिव बन्धनान्<br />
-        मृत्योर्मुक्षीय मामृतात् ॥<br />
+        मृत्योर्मुक्षीय मामृतात् ॥
+        </div><p>
         Transliteration:
         oṃ tryambakaṃ yajāmahe
         sugandhiṃ puṣṭivardhanam।
@@ -28,6 +29,7 @@ function MahaMritunjay() {
 
         अलग नहीं
         होते हैं॥<br />
+        </p><p>
         English translation:
 
         I worship that fragrant Shiva of three eyes, the one who nourishes all living entities.

@@ -17,6 +17,7 @@ function LandingPage() {
             
             
             <h1>My experience at Manikarnika Ghat</h1>
+            <div style={{ fontFamily: 'Inter', fontWeight: '600', marginBottom: '10px' }}>by Surabhi Bali</div>
             <figure style={{ float: 'right', margin: '30px' }} >
           <img src={dom_pic} height='320px' />
           {/* <figcaption style={{ fontFamily: 'Inter', fontSize: '15px' }}>Fig. 1 - Dom watching me click pictures</figcaption> */}
